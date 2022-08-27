@@ -1,0 +1,72 @@
+body{
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+#flexcontainer{
+    display: flex;
+    justify-content: center;
+}
+
+.Column{
+    display: flex;
+    flex-direction: column;
+
+    width: 20vw;
+   
+}
+
+#itemOne{
+  background-color: rgb(0, 0, 0);
+  flex: 0 0 80vh;
+  margin: 10px;
+}
+
+#itemTwo{
+    background-color: rgb(255, 238, 0);
+    flex: 0 0 20vh;
+    margin: 10px;
+}
+
+#itemThree{
+  background-color: rgb(255, 0, 204);
+  flex: 0 0 60vh;
+  margin: 10px;
+}
+
+#itemFour{
+    background-color: rgb(0, 234, 255);
+    flex: 0 0 40vh;
+    margin: 10px;
+}
+
+#itemFive{
+  background-color: rgb(255, 255, 0);
+  flex: 0 0 40vh;
+  margin: 10px;
+}
+
+#itemSix{
+    background-color: rgb(255, 255, 0);
+    flex: 0 0 40vh;
+    margin: 10px;
+}
+
+#itemSeven{
+    background-color: rgb(190, 190, 190);
+    flex: 0 0 18vh;
+    margin: 10px;
+}
+
+#itemNine{
+    background-color: rgb(255, 255, 0);
+    flex: 0 0 80vh;
+    margin: 10px;
+  }
+  
+  #itemTen{
+      background-color: rgb(255, 255, 0);
+      flex: 0 0 20vh;
+      margin: 10px;
+  }
+  
